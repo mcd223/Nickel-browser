@@ -10,6 +10,8 @@
 
 ## Thing that need to be done
 
+- bookmarks
+- history
 - Tabs
 - search feature in URL box
 - settings
