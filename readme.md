@@ -14,3 +14,4 @@
 - search feature in URL box
 - settings
 - better styling
+- Icon
