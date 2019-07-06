@@ -6,15 +6,7 @@ function urlUpdate(){
 }
 function rL(){
     var webview = document.getElementById("web");
-    var clearDataType = {
-        appcache: true,
-        cache: true,
-        cookies: true,
-        }
-        
-        webview.clearData({ since: 0 }, clearDataType, function() {
-            webview.reload();
-        });
+    webview.reload();
 }
 function bK(){
     var webview = document.getElementById("web");
