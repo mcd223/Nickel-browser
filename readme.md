@@ -8,10 +8,18 @@
 
 - back, forward, reload buttons
 
+- search feature in URL box
+
 ## Thing that need to be done
 
+- bookmarks
+
+- history
+
 - Tabs
-- search feature in URL box
+
 - settings
+
 - better styling
+
 - Icon
