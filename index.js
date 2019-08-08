@@ -34,6 +34,11 @@ function fD(){
     var webview = document.getElementById("web");
     webview.forward();
 }
+function updateWebviews() {
+    var webview = document.getElementById("web");
+    webview.style.height = document.documentElement.clientHeight + "px";
+    webview.style.width = document.documentElement.clientWidth + "px";
+};
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("searchForm").onsubmit = URL;
     document.getElementById("back").onclick = bK;
@@ -41,3 +46,5 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("reload").onclick = rL;
     document.getElementById("web").onloadstop = urlUpdate;
 });
+onload = updateWebviews;
+window.onresize = updateWebviews;

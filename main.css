@@ -4,13 +4,12 @@
 form{
     text-align: center;
 }
-#web{
-    width:100%;
-    height:1000px;
-}
 #tabBar{
     background-color: #c0c1c2;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+}
+body{
+    margin: 0;
 }
