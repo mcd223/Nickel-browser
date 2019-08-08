@@ -10,6 +10,8 @@
 
 - search feature in URL box
 
+- Webview resizes to full screen
+
 ## Thing that need to be done
 
 - bookmarks
